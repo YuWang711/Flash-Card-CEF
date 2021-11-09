@@ -1,0 +1,213 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#draggable-outer {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: transparent;
+}
+
+#draggable_top {
+    top: 0px;
+    left: 5%;
+    height: 5%;
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#draggable_left {
+    left: 0px;
+    width: 5%;
+    height: 100%;
+    position: absolute;
+}
+
+#draggable_right {
+    width: 5%;
+    right: 0px;
+    height: 100%;
+    position: absolute;
+}
+
+#draggable_bottom {
+    left: 5%;
+    height: 5%;
+    width: 90%;
+    margin: 0 auto;
+    bottom: 0px;
+    position: absolute;
+}
+
+#outer-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#panels {
+    position: relative;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row-reverse;
+    width: 100%;
+    background-color: dodgerblue;
+    flex: 0 1 auto;
+}
+
+.non_draggable {
+    z-index: 1;
+    -webkit-app-region: no-drag;
+}
+
+.draggable {
+    z-index: 8;
+    -webkit-app-region: drag;
+}
+
+#toolBar {
+    position: relative;
+    flex: 0 1 auto;
+    height: 5%;
+    border:solid;
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+#outer_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+#Flash_Card {
+    position: relative;
+    height: auto;
+    width: 100%;
+    flex: 1 1 auto;
+    border:none;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+#Flash_Card_Inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.rotate-180 
+{
+    transform: rotateY(180deg);
+}
+
+#Flash_Card_Front, #Flash_Card_Back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+#Flash_Card_Back {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.card {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    resize: none;
+    outline: none;
+}
+
+.paper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+    overflow: hidden;
+    z-index:2;
+}
+
+.paper:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
+    background-size: 30px 30px;
+    border-right: 3px solid #D44147;
+    box-sizing: border-box;
+}
+
+.paper-content {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+    background: linear-gradient(transparent, transparent 28px, #91D1D3 28px);
+    background-size: 30px 30px;
+}
+
+.paper-content textarea {
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: mediumblue;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.toolbar_Buttons {
+    height:100%;
+    width: auto;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.toolbar_Buttons:hover {
+    background-color: dodgerblue;
+    color:white;
+}
+
+#last_save {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#index {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}

@@ -1,0 +1,10 @@
+^C:\USERS\TIMMY\DESKTOP\FLASHCARD\CEF-PROJECT\FLASHCARD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/timmy/Desktop/FlashCard/cef-project -BC:/Users/timmy/Desktop/FlashCard/cef-project/build --check-stamp-file C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

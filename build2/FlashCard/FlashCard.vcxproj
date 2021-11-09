@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{383C40C6-BEF4-3F80-BD69-62C83D733B69}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>FlashCard</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\timmy\Desktop\FlashCard\cef-project\build\FlashCard\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FlashCard.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FlashCard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\timmy\Desktop\FlashCard\cef-project\build\FlashCard\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FlashCard.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FlashCard</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\timmy\Desktop\FlashCard\cef-project;C:\Users\timmy\Desktop\FlashCard\cef-project\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4324;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_HAS_ITERATOR_DEBUGGING=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_HAS_ITERATOR_DEBUGGING=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\timmy\Desktop\FlashCard\cef-project;C:\Users\timmy\Desktop\FlashCard\cef-project\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\timmy\Desktop\FlashCard\cef-project;C:\Users\timmy\Desktop\FlashCard\cef-project\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding manifest...																</Message>
+      <Command>setlocal
+mt.exe -nologo -manifest "C:/Users/timmy/Desktop/FlashCard/cef-project/FlashCard/FlashCard.exe.manifest" "C:/Users/timmy/Desktop/FlashCard/cef-project/FlashCard/compatibility.manifest" -outputresource:"C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/FlashCard.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/chrome_elf.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/chrome_elf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/libcef.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/libcef.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/libEGL.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/libEGL.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/libGLESv2.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/libGLESv2.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/snapshot_blob.bin C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/snapshot_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/v8_context_snapshot.bin C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/v8_context_snapshot.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/vk_swiftshader.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/vk_swiftshader.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/vk_swiftshader_icd.json C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/vk_swiftshader_icd.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/vulkan-1.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/vulkan-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/swiftshader C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/swiftshader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Debug/d3dcompiler_47.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/d3dcompiler_47.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/chrome_100_percent.pak C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/chrome_100_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/chrome_200_percent.pak C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/chrome_200_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/resources.pak C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/resources.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/icudtl.dat C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/icudtl.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/locales C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/locales
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64\Debug\libcef.lib;..\libcef_dll_wrapper\Debug\libcef_dll_wrapper.lib;comctl32.lib;gdi32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;..\..\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64\Debug\cef_sandbox.lib;Advapi32.lib;dbghelp.lib;Delayimp.lib;OleAut32.lib;PowrProf.lib;Propsys.lib;psapi.lib;SetupAPI.lib;Shell32.lib;version.lib;wbemuuid.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/FlashCard.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Debug/FlashCard.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\timmy\Desktop\FlashCard\cef-project;C:\Users\timmy\Desktop\FlashCard\cef-project\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4100;4127;4244;4324;4481;4512;4701;4702;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;__STDC_CONSTANT_MACROS;__STDC_FORMAT_MACROS;_WIN32;UNICODE;_UNICODE;WINVER=0x0601;_WIN32_WINNT=0x601;NOMINMAX;WIN32_LEAN_AND_MEAN;_HAS_EXCEPTIONS=0;PSAPI_VERSION=1;CEF_USE_SANDBOX;CEF_USE_ATL;_NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\timmy\Desktop\FlashCard\cef-project;C:\Users\timmy\Desktop\FlashCard\cef-project\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\timmy\Desktop\FlashCard\cef-project;C:\Users\timmy\Desktop\FlashCard\cef-project\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Adding manifest...																</Message>
+      <Command>setlocal
+mt.exe -nologo -manifest "C:/Users/timmy/Desktop/FlashCard/cef-project/FlashCard/FlashCard.exe.manifest" "C:/Users/timmy/Desktop/FlashCard/cef-project/FlashCard/compatibility.manifest" -outputresource:"C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/FlashCard.exe";#1
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/chrome_elf.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/chrome_elf.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/libcef.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/libcef.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/libEGL.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/libEGL.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/libGLESv2.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/libGLESv2.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/snapshot_blob.bin C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/snapshot_blob.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/v8_context_snapshot.bin C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/v8_context_snapshot.bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/vk_swiftshader.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/vk_swiftshader.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/vk_swiftshader_icd.json C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/vk_swiftshader_icd.json
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/vulkan-1.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/vulkan-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/swiftshader C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/swiftshader
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Release/d3dcompiler_47.dll C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/d3dcompiler_47.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/chrome_100_percent.pak C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/chrome_100_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/chrome_200_percent.pak C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/chrome_200_percent.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/resources.pak C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/resources.pak
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/icudtl.dat C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/icudtl.dat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/Resources/locales C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/locales
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\..\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64\Release\libcef.lib;..\libcef_dll_wrapper\Release\libcef_dll_wrapper.lib;comctl32.lib;gdi32.lib;rpcrt4.lib;shlwapi.lib;ws2_32.lib;..\..\third_party\cef\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64\Release\cef_sandbox.lib;Advapi32.lib;dbghelp.lib;Delayimp.lib;OleAut32.lib;PowrProf.lib;Propsys.lib;psapi.lib;SetupAPI.lib;Shell32.lib;version.lib;wbemuuid.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/FlashCard.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/Release/FlashCard.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/timmy/Desktop/FlashCard/cef-project/FlashCard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/timmy/Desktop/FlashCard/cef-project -BC:/Users/timmy/Desktop/FlashCard/cef-project/build --check-stamp-file C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\timmy\Desktop\FlashCard\cef-project\build\FlashCard\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/timmy/Desktop/FlashCard/cef-project/FlashCard/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/timmy/Desktop/FlashCard/cef-project -BC:/Users/timmy/Desktop/FlashCard/cef-project/build --check-stamp-file C:/Users/timmy/Desktop/FlashCard/cef-project/build/FlashCard/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\timmy\Desktop\FlashCard\cef-project\build\FlashCard\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FlashCard\MainContext.cpp" />
+    <ClInclude Include="..\..\FlashCard\MainContext.h" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_app.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_handler.cc" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_handler.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Deck.cpp" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Deck.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\DeckHandler.cpp" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\DeckHandler.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\FileHandler.cpp" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\FileHandler.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Flashcard.cpp" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Flashcard.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\MessageRouter.cpp" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\MessageRouter.h" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\renderProcessHandler.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\ViewWindow.cpp" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\ViewWindow.h" />
+    <ResourceCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\cefsimple.rc" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\cefsimple_win.cc" />
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\resource.h" />
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_handler_win.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\timmy\Desktop\FlashCard\cef-project\build\ZERO_CHECK.vcxproj">
+      <Project>{C66B323C-2010-32E1-9003-155337A6664B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\timmy\Desktop\FlashCard\cef-project\build\libcef_dll_wrapper\libcef_dll_wrapper.vcxproj">
+      <Project>{7C830929-5C37-329B-9CEE-04AA4A434C90}</Project>
+      <Name>libcef_dll_wrapper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Release\Resource\css\FlashCard.css" />
+    <None Include="Release\Resource\css\homepage.css" />
+    <None Include="Release\Resource\html\FlashCard.html" />
+    <None Include="Release\Resource\html\homepage.html" />
+    <None Include="Release\snapshot_blob.bin" />
+    <None Include="Release\v8_context_snapshot.bin" />
+    <None Include="Resource\html\FlashCard.html" />
+    <None Include="Resource\html\homepage.html" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

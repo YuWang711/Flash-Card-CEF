@@ -1,0 +1,729 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'base::cef_subtle::StartRefCountFromZeroTag' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_ref_counted.h"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 3,
+                  "endLine": 66,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0RefCountedBase@cef_subtle@base@@IEAA@W4StartRefCountFromZeroTag@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'base::cef_subtle::StartRefCountFromOneTag' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_ref_counted.h"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 3,
+                  "endLine": 72,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0RefCountedBase@cef_subtle@base@@IEAA@W4StartRefCountFromOneTag@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_key_event_type_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+                },
+                "region": {
+                  "startLine": 437,
+                  "startColumn": 5,
+                  "endLine": 437,
+                  "endColumn": 23
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?set@CefKeyEventTraits@@SAXPEBU_cef_key_event_t@@PEAU2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_log_severity_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+                },
+                "region": {
+                  "startLine": 586,
+                  "startColumn": 5,
+                  "endLine": 586,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?set@CefSettingsTraits@@SAXPEBU_cef_settings_t@@PEAU2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_state_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+                },
+                "region": {
+                  "startLine": 702,
+                  "startColumn": 5,
+                  "endLine": 702,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?set@CefBrowserSettingsTraits@@SAXPEBU_cef_browser_settings_t@@PEAU2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_cookie_same_site_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+                },
+                "region": {
+                  "startLine": 852,
+                  "startColumn": 5,
+                  "endLine": 852,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?set@CefCookieTraits@@SAXPEBU_cef_cookie_t@@PEAU2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_cookie_priority_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+                },
+                "region": {
+                  "startLine": 853,
+                  "startColumn": 5,
+                  "endLine": 853,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?set@CefCookieTraits@@SAXPEBU_cef_cookie_t@@PEAU2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_pdf_print_margin_type_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+                },
+                "region": {
+                  "startLine": 909,
+                  "startColumn": 5,
+                  "endLine": 909,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?set@CefPdfPrintSettingsTraits@@SAXPEBU_cef_pdf_print_settings_t@@PEAU2@_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'cef_errorcode_t' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_extension_handler.h"
+                },
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 16,
+                  "endLine": 81,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?OnExtensionLoadFailed@CefExtensionHandler@@UEAAXW4cef_errorcode_t@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF710E5FC60 -il C:\\Users\\timmy\\AppData\\Local\\Temp\\_CL_e028d383ast -typedil -f C:\\Users\\timmy\\Desktop\\FlashCard\\cef-project\\FlashCard\\DeckHandler.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -I C:\\Users\\timmy\\Desktop\\FlashCard\\cef-project -I C:\\Users\\timmy\\Desktop\\FlashCard\\cef-project\\third_party\\cef\\cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64 -I C:\\Users\\timmy\\OneDrive\\Documents\\vcpkg-master\\vcpkg-master\\installed\\x64-windows\\include -nologo -W 4 -WX -diagnostics:column -Og -Oi -Ot -Oy -DCODE_ANALYSIS -DWIN32 -D_WINDOWS -DNDEBUG -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D_WIN32 -DUNICODE -D_UNICODE -DWINVER=0x0601 -D_WIN32_WINNT=0x601 -DNOMINMAX -DWIN32_LEAN_AND_MEAN -D_HAS_EXCEPTIONS=0 -DPSAPI_VERSION=1 -DCEF_USE_SANDBOX -DCEF_USE_ATL -D_NDEBUG -DCMAKE_INTDIR=\"Release\" -GF -EHs -D_CPPUNWIND -EHc -MT -clrNoPureCRT -D_MT -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -FoFlashCard.dir\\Release\\DeckHandler.obj -FdFlashCard.dir\\Release\\vc142.pdb -external:W 4 -Gd -wd 4100 -wd 4127 -wd 4244 -wd 4324 -wd 4481 -wd 4512 -wd 4701 -wd 4702 -wd 4996 -analyze:projectdirectory C:\\Users\\timmy\\Desktop\\FlashCard\\cef-project\\build\\FlashCard -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\EspXEngine.dll -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 00000000000001AC",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_ref_counted.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "b9cbe26bf365e14f3499075ec1f48914"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_wrappers.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8e1f895d47a756f837a4bf9efd2bfe5a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/timmy/Desktop/FlashCard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_extension_handler.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "c640b4132f20fff1940f6230e4b062fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/flashcard/deckhandler.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "088cbc236f44e30fefb01822491f12ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/flashcard/deckhandler.h"
+          },
+          "hashes": {
+            "md5": "52bd54b660e37ca7cd97b15892b3b66c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/flashcard/deck.h"
+          },
+          "hashes": {
+            "md5": "55c44175f8220a40bac74ff680c3cfde"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/flashcard/flashcard.h"
+          },
+          "hashes": {
+            "md5": "d2a20e56d517bc168ae3c66f795be6d9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/flashcard/filehandler.h"
+          },
+          "hashes": {
+            "md5": "40ab06bc083a45be4c9cd568b38c6259"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_browser.h"
+          },
+          "hashes": {
+            "md5": "f4472b85407099b07635b2b491949143"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_base.h"
+          },
+          "hashes": {
+            "md5": "6ce8ceff61c68e8fa41d972c2a88b402"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_atomic_ref_count.h"
+          },
+          "hashes": {
+            "md5": "47d361577526b7403a6cb3155e2a0c01"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_build.h"
+          },
+          "hashes": {
+            "md5": "84e5573e88f1468f65af4b9a3ceab79f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_macros.h"
+          },
+          "hashes": {
+            "md5": "028ba022bcc130c3ceaf5a2df2d60a97"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_ptr.h"
+          },
+          "hashes": {
+            "md5": "ace2338fa251ed23b9b2cdc4eee71ea7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_compiler_specific.h"
+          },
+          "hashes": {
+            "md5": "56956219193204c82f4f9bf5b38e3da9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_logging.h"
+          },
+          "hashes": {
+            "md5": "22904dbd73aba45d9b24c9ddc3cb5907"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_logging_internal.h"
+          },
+          "hashes": {
+            "md5": "e91bc8dd8ae82d185c1a443dea64764c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_export.h"
+          },
+          "hashes": {
+            "md5": "dbbeca17f532f2e2d976f8b1dbb33f53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_scoped_refptr.h"
+          },
+          "hashes": {
+            "md5": "248b52923aea400c7cc230c05123d5ea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_template_util.h"
+          },
+          "hashes": {
+            "md5": "faee0198c41d57af4953a7b196e536bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_thread_checker.h"
+          },
+          "hashes": {
+            "md5": "573eeaf9c5a2d5638350db8948258b02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/internal/cef_thread_checker_impl.h"
+          },
+          "hashes": {
+            "md5": "ab9eb13995ddfc70d7600b97f1a09cc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_lock.h"
+          },
+          "hashes": {
+            "md5": "cd59282fad03b33781f81e93ca00dd87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_platform_thread.h"
+          },
+          "hashes": {
+            "md5": "76342170c5cea22f80ddd9afcab374dc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/cef_basictypes.h"
+          },
+          "hashes": {
+            "md5": "995e14f74f199d4fbe1a96165ed279b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_thread_internal.h"
+          },
+          "hashes": {
+            "md5": "c95521ac4c018648c90f5ff68ce0827e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/internal/cef_lock_impl.h"
+          },
+          "hashes": {
+            "md5": "7826e9fe2733a3cc874a778559a11696"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_string.h"
+          },
+          "hashes": {
+            "md5": "fbc290646f32c820853ef6772bf8270a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_string_types.h"
+          },
+          "hashes": {
+            "md5": "147357b3ce08505fc6b6079c69147b9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_string_wrappers.h"
+          },
+          "hashes": {
+            "md5": "5d43de4d7b033efb7f2dc108421d1976"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_string_list.h"
+          },
+          "hashes": {
+            "md5": "4a959b535dbf916ae2aaa68cb4d27bd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types.h"
+          },
+          "hashes": {
+            "md5": "26e9364f08df9e4670c06a08d4ef0cb2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_time.h"
+          },
+          "hashes": {
+            "md5": "ee0bd15ecc1ce65e95ac8ed20e3bcdb5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_geometry.h"
+          },
+          "hashes": {
+            "md5": "a7ce4eacbee44c0f449610223ced5a80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_types_win.h"
+          },
+          "hashes": {
+            "md5": "4a57e3bb0c65150c8feb1baa02561e7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/base/internal/cef_net_error_list.h"
+          },
+          "hashes": {
+            "md5": "64818578fa657cd2c228f943973d07c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/internal/cef_win.h"
+          },
+          "hashes": {
+            "md5": "559f5fa87f42f698e6befcf9d9908124"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_devtools_message_observer.h"
+          },
+          "hashes": {
+            "md5": "24ade0406e997a78fff6467ca1e7e503"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_drag_data.h"
+          },
+          "hashes": {
+            "md5": "db2cc7ad17c0960faa7ea0208bd1a906"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_image.h"
+          },
+          "hashes": {
+            "md5": "55fb78b2be14796ac3a5ec98c1d1c679"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_values.h"
+          },
+          "hashes": {
+            "md5": "f8652146981a4ebb12593d2d0d5ec095"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_stream.h"
+          },
+          "hashes": {
+            "md5": "44bf7f3bccfab548b791a67ec5f925c1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_frame.h"
+          },
+          "hashes": {
+            "md5": "d57e56ec3429ce4f4794984499a17203"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_dom.h"
+          },
+          "hashes": {
+            "md5": "a67ed24e176a576c19f7d1b679dd14aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_process_message.h"
+          },
+          "hashes": {
+            "md5": "cb81a1e3efec98748b06a828be567f27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_request.h"
+          },
+          "hashes": {
+            "md5": "1601641203e9bbc648a968229943c38e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_string_visitor.h"
+          },
+          "hashes": {
+            "md5": "070f04a5f9c5cc6a2aed0b71c7de608d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_navigation_entry.h"
+          },
+          "hashes": {
+            "md5": "ad91d86e8b95d2c32c38e2165608589d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_ssl_status.h"
+          },
+          "hashes": {
+            "md5": "4f2532e87dd9ceac1c2e3847649faa6a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_x509_certificate.h"
+          },
+          "hashes": {
+            "md5": "75e9e14027c29defc6ab6a15a185a944"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_registration.h"
+          },
+          "hashes": {
+            "md5": "ae202941272fb3a9dc0a820cb201b367"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_request_context.h"
+          },
+          "hashes": {
+            "md5": "9dca04495a4a710830959b915f4f3db2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_callback.h"
+          },
+          "hashes": {
+            "md5": "243f9b7c3532712fa007640e17515553"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_cookie.h"
+          },
+          "hashes": {
+            "md5": "ccfadf5e299429429ceb558f01deb571"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_extension.h"
+          },
+          "hashes": {
+            "md5": "d6cd0f4dbf0aa7786f8046a49dd240ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/timmy/desktop/flashcard/cef-project/third_party/cef/cef_binary_95.7.14+g9f72f35+chromium-95.0.4638.69_windows64/include/cef_media_router.h"
+          },
+          "hashes": {
+            "md5": "849ddec177d6591aa3cef84622760ae1"
+          }
+        }
+      ]
+    }
+  ]
+}

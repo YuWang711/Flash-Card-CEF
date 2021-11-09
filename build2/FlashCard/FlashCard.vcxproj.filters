@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_handler.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Deck.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\DeckHandler.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\FileHandler.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Flashcard.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\MessageRouter.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\ViewWindow.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\cefsimple_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_handler_win.cc">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FlashCard\MainContext.cpp">
+      <Filter>cefsimple</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_app.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\simple_handler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Deck.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\DeckHandler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\FileHandler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\Flashcard.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\MessageRouter.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\renderProcessHandler.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\ViewWindow.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\resource.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FlashCard\MainContext.h">
+      <Filter>cefsimple</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\timmy\Desktop\FlashCard\cef-project\FlashCard\cefsimple.rc">
+      <Filter>cefsimple</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cefsimple">
+      <UniqueIdentifier>{183B17B5-2A3B-3315-893C-C015A6EC3BD0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Release\Resource\html\FlashCard.html">
+      <Filter>cefsimple</Filter>
+    </None>
+    <None Include="Release\Resource\html\homepage.html">
+      <Filter>cefsimple</Filter>
+    </None>
+    <None Include="Release\Resource\css\FlashCard.css">
+      <Filter>cefsimple</Filter>
+    </None>
+    <None Include="Release\Resource\css\homepage.css">
+      <Filter>cefsimple</Filter>
+    </None>
+    <None Include="Release\snapshot_blob.bin" />
+    <None Include="Release\v8_context_snapshot.bin" />
+    <None Include="Resource\html\FlashCard.html" />
+    <None Include="Resource\html\homepage.html" />
+  </ItemGroup>
+</Project>

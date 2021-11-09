@@ -1,0 +1,55 @@
+[1107/224947.682:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/225029.675:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/225455.239:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/225533.376:INFO:child_thread_impl.cc(902)] ChildThreadImpl::EnsureConnected()
+[1107/225535.726:ERROR:network_service_instance_impl.cc(638)] Network service crashed, restarting service.
+[1107/225642.760:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/230114.487:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/230244.442:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/230922.649:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/230929.583:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1107/231109.441:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/231412.017:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/231434.038:INFO:child_thread_impl.cc(902)] ChildThreadImpl::EnsureConnected()
+[1107/232022.153:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/232106.248:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/232405.323:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/232419.115:WARNING:render_frame_host_impl.cc(1245)] InterfaceRequest was dropped, the document is no longer active: blink.mojom.RendererAudioOutputStreamFactory
+[1107/232435.069:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/232503.356:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/233136.490:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/233204.053:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/233308.511:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/233441.514:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/233524.389:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/234500.872:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/234520.584:INFO:child_thread_impl.cc(902)] ChildThreadImpl::EnsureConnected()
+[1107/234520.802:INFO:child_thread_impl.cc(902)] ChildThreadImpl::EnsureConnected()
+[1107/235221.587:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/235416.723:INFO:child_thread_impl.cc(902)] ChildThreadImpl::EnsureConnected()
+[1107/235422.274:ERROR:network_service_instance_impl.cc(638)] Network service crashed, restarting service.
+[1107/235440.214:ERROR:gpu_init.cc(453)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1107/235559.872:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1107/235612.003:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1107/235919.274:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/000234.750:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/001003.439:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/001625.789:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/001633.649:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -101
+[1108/001641.279:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -101
+[1108/001716.461:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/001727.236:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1108/001930.912:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/001946.494:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1108/113143.966:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/113153.226:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1108/113219.959:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1108/125839.902:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/125851.652:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1108/125853.010:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1108/125942.082:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
+[1108/133250.466:INFO:content_main_runner_impl.cc(1101)] Chrome is running in full browser mode.
+[1108/133307.034:ERROR:ssl_client_socket_impl.cc(976)] handshake failed; returned -1, SSL error code 1, net_error -100
+[1108/133309.610:WARNING:spdy_session.cc(3499)] Received HEADERS for invalid stream 3
+[1108/133309.610:WARNING:spdy_session.cc(3499)] Received HEADERS for invalid stream 5
+[1108/133315.391:FATAL:cef_ref_counted.h(245)] Check failed: !in_dtor_. 
